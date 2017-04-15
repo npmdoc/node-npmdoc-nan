@@ -1,11 +1,13 @@
-# api documentation for  [nan (v2.5.1)](https://github.com/nodejs/nan#readme)  [![npm package](https://img.shields.io/npm/v/npmdoc-nan.svg?style=flat-square)](https://www.npmjs.org/package/npmdoc-nan) [![travis-ci.org build-status](https://api.travis-ci.org/npmdoc/node-npmdoc-nan.svg)](https://travis-ci.org/npmdoc/node-npmdoc-nan)
+# api documentation for  [nan (v2.6.2)](https://github.com/nodejs/nan#readme)  [![npm package](https://img.shields.io/npm/v/npmdoc-nan.svg?style=flat-square)](https://www.npmjs.org/package/npmdoc-nan) [![travis-ci.org build-status](https://api.travis-ci.org/npmdoc/node-npmdoc-nan.svg)](https://travis-ci.org/npmdoc/node-npmdoc-nan)
 #### Native Abstractions for Node.js: C++ header for Node 0.8 -> 7 compatibility
 
-[![NPM](https://nodei.co/npm/nan.png?downloads=true)](https://www.npmjs.com/package/nan)
+[![NPM](https://nodei.co/npm/nan.png?downloads=true&downloadRank=true&stars=true)](https://www.npmjs.com/package/nan)
 
-[![apidoc](https://npmdoc.github.io/node-npmdoc-nan/build/screen-capture.buildNpmdoc.browser._2Fhome_2Ftravis_2Fbuild_2Fnpmdoc_2Fnode-npmdoc-nan_2Ftmp_2Fbuild_2Fapidoc.html.png)](https://npmdoc.github.io/node-npmdoc-nan/build..beta..travis-ci.org/apidoc.html)
+[![apidoc](https://npmdoc.github.io/node-npmdoc-nan/build/screenCapture.buildCi.browser.apidoc.html.png)](https://npmdoc.github.io/node-npmdoc-nan/build/apidoc.html)
 
-![package-listing](https://npmdoc.github.io/node-npmdoc-nan/build/screen-capture.npmPackageListing.svg)
+![npmPackageListing](https://npmdoc.github.io/node-npmdoc-nan/build/screenCapture.npmPackageListing.svg)
+
+![npmPackageDependencyTree](https://npmdoc.github.io/node-npmdoc-nan/build/screenCapture.npmPackageDependencyTree.svg)
 
 
 
@@ -20,38 +22,35 @@
     "contributors": [
         {
             "name": "Rod Vagg",
-            "email": "r@va.gg",
             "url": "https://github.com/rvagg"
         },
         {
             "name": "Benjamin Byholm",
-            "email": "bbyholm@abo.fi",
             "url": "https://github.com/kkoopa/"
         },
         {
             "name": "Trevor Norris",
-            "email": "trev.norris@gmail.com",
             "url": "https://github.com/trevnorris"
         },
         {
             "name": "Nathan Rajlich",
-            "email": "nathan@tootallnate.net",
             "url": "https://github.com/TooTallNate"
         },
         {
             "name": "Brett Lawson",
-            "email": "brett19@gmail.com",
             "url": "https://github.com/brett19"
         },
         {
             "name": "Ben Noordhuis",
-            "email": "info@bnoordhuis.nl",
             "url": "https://github.com/bnoordhuis"
         },
         {
             "name": "David Siegel",
-            "email": "david@artcom.de",
             "url": "https://github.com/agnat"
+        },
+        {
+            "name": "Michael Ira Krufky",
+            "url": "https://github.com/mkrufky"
         }
     ],
     "dependencies": {},
@@ -67,25 +66,23 @@
     },
     "directories": {},
     "dist": {
-        "shasum": "d5b01691253326a97a2bbee9e61c55d8d60351e2",
-        "tarball": "https://registry.npmjs.org/nan/-/nan-2.5.1.tgz"
+        "shasum": "e4ff34e6c95fdfb5aecc08de6596f43605a7db45",
+        "tarball": "https://registry.npmjs.org/nan/-/nan-2.6.2.tgz"
     },
+    "gitHead": "f0b2f64c1e5317888f2e12fdefb2f105e7018552",
     "homepage": "https://github.com/nodejs/nan#readme",
     "license": "MIT",
     "main": "include_dirs.js",
     "maintainers": [
         {
-            "name": "rvagg",
-            "email": "rod@vagg.org"
+            "name": "rvagg"
         },
         {
-            "name": "kkoopa",
-            "email": "bbyholm@abo.fi"
+            "name": "kkoopa"
         }
     ],
     "name": "nan",
     "optionalDependencies": {},
-    "readme": "ERROR: No README data found!",
     "repository": {
         "type": "git",
         "url": "git://github.com/nodejs/nan.git"
@@ -95,7 +92,7 @@
         "rebuild-tests": "node-gyp rebuild --msvs_version=2013 --directory test",
         "test": "tap --gc --stderr test/js/*-test.js"
     },
-    "version": "2.5.1"
+    "version": "2.6.2"
 }
 ```
 
