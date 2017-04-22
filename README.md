@@ -1,9 +1,14 @@
-# api documentation for  [nan (v2.6.2)](https://github.com/nodejs/nan#readme)  [![npm package](https://img.shields.io/npm/v/npmdoc-nan.svg?style=flat-square)](https://www.npmjs.org/package/npmdoc-nan) [![travis-ci.org build-status](https://api.travis-ci.org/npmdoc/node-npmdoc-nan.svg)](https://travis-ci.org/npmdoc/node-npmdoc-nan)
+# npmdoc-nan
+
+#### api documentation for  [nan (v2.6.2)](https://github.com/nodejs/nan#readme)  [![npm package](https://img.shields.io/npm/v/npmdoc-nan.svg?style=flat-square)](https://www.npmjs.org/package/npmdoc-nan) [![travis-ci.org build-status](https://api.travis-ci.org/npmdoc/node-npmdoc-nan.svg)](https://travis-ci.org/npmdoc/node-npmdoc-nan)
+
 #### Native Abstractions for Node.js: C++ header for Node 0.8 -> 7 compatibility
 
 [![NPM](https://nodei.co/npm/nan.png?downloads=true&downloadRank=true&stars=true)](https://www.npmjs.com/package/nan)
 
-[![apidoc](https://npmdoc.github.io/node-npmdoc-nan/build/screenCapture.buildCi.browser.apidoc.html.png)](https://npmdoc.github.io/node-npmdoc-nan/build/apidoc.html)
+- [https://npmdoc.github.io/node-npmdoc-nan/build/apidoc.html](https://npmdoc.github.io/node-npmdoc-nan/build/apidoc.html)
+
+[![apidoc](https://npmdoc.github.io/node-npmdoc-nan/build/screenCapture.buildCi.browser.%252Ftmp%252Fbuild%252Fapidoc.html.png)](https://npmdoc.github.io/node-npmdoc-nan/build/apidoc.html)
 
 ![npmPackageListing](https://npmdoc.github.io/node-npmdoc-nan/build/screenCapture.npmPackageListing.svg)
 
@@ -92,19 +97,10 @@
         "rebuild-tests": "node-gyp rebuild --msvs_version=2013 --directory test",
         "test": "tap --gc --stderr test/js/*-test.js"
     },
-    "version": "2.6.2"
+    "version": "2.6.2",
+    "bin": {}
 }
 ```
-
-
-
-# <a name="apidoc.tableOfContents"></a>[table of contents](#apidoc.tableOfContents)
-
-#### [module nan](#apidoc.module.nan)
-
-
-
-# <a name="apidoc.module.nan"></a>[module nan](#apidoc.module.nan)
 
 
 
